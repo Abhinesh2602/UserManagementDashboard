@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef, Children } from "react";
-import plusIcon from "../assets/plusIcon.svg";
 import searchIcon from "../assets/search.svg";
-import filterIcon from "../assets/filter.svg";
+import { FaPlus } from "react-icons/fa6";
 
 export const Navigation = ({ onSearch, searchTerm, onAddUserClick }) => {
   const [localSearchTerm, setLocalSearchTerm] = useState(searchTerm || "");
@@ -46,7 +45,7 @@ export const Navigation = ({ onSearch, searchTerm, onAddUserClick }) => {
           shadow-custom rounded-md hover:bg-opacity-90 transition-colors"
           onClick={onAddUserClick}
         >
-          <img src={plusIcon} alt="Add" className="h-[1rem]" />
+          <FaPlus />
           Add New User
         </button>
       </div>
