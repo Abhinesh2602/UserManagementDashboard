@@ -7,7 +7,6 @@ A modern React application for managing users with features like CRUD operations
 - ✅ User Management (Create, Read, Update, Delete)
 - 🔍 Real-time Search Functionality
 - 📊 Pagination
-- 📱 Responsive Design
 - 🎨 Modern UI with Tailwind CSS
 
 ## 🛠️ Tech Stack
